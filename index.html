@@ -11,7 +11,7 @@
   <body>
     <style>
       .nav-link:hover{
-        color: #8176f7;
+        color: #685cd4;
       }
 
       #navbarNav{
@@ -19,17 +19,17 @@
       }
       
       .btn-custom {
-        border-color: #7c70fc;
-        color: #7c70fc;
+        border-color: #685cd4;
+        color: #685cd4;
         transition: all 0.3s ease;
       }
 
       .btn-custom:hover,
       .btn-custom:focus,
       .btn-custom:active{
-        background-color: #7c70fc !important;
+        background-color: #685cd4 !important;
         color: white !important;
-        border-color: #7c70fc !important;
+        border-color: #685cd4 !important;
         box-shadow: none !important;
       }
 
@@ -43,24 +43,35 @@
       }
 
       .para h1{
-        font-size: 40.2px;
+        font-size: 36.9px;
         font-weight: bolder;
         line-height: 1.5;
         margin-bottom: 0;
+        margin-top: 0;
+        font-family: sans-serif;
       }
 
       .highlight {
-      padding: 1px 3px;
-      border-radius: 2px;
-      display: inline;
-      margin: 0 1px;
-    }
+        padding: 0 2px;
+        margin-top: -2px;               
+        border-radius: 2px;
+        display: inline-block;                   
+        vertical-align: baseline;
+      }
 
-    .highlight-1 { background-color: #E0E4FA; padding: 0 2px;}
-    .highlight-2 { background-color: #FFF3E4; padding: 0 2px;}
-    .highlight-3 { background-color: #FAE5EF; padding: 0 2px;}
-    .highlight-4 { background-color: #E5FBF3; padding: 0 2px;}
-    .highlight-5 { background-color: #F5E5FB; padding: 0 2px;}
+      .Hero-Section p{
+        text-align: center;
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #565b6c;
+        font-size: 23.5px;
+      }
+
+    .highlight-1 { background-color: #E0E4FA; padding: 0 2px; line-height: 1;}
+    .highlight-2 { background-color: #FFF3E4; padding: 0 2px; line-height: 1.2;}
+    .highlight-3 { background-color: #FAE5EF; padding: 0 2px; line-height: 1.2;}
+    .highlight-4 { background-color: #E5FBF3; padding: 0 2px; line-height: 1.1;}
+    .highlight-5 { background-color: #F5E5FB; padding: 0 2px; line-height: 1.0;}
 
     </style>
       <nav class="navbar navbar-expand-lg navbar-light mt-2 ms-4 me-1">
@@ -99,7 +110,7 @@
       </div>
         </div>
       </nav>
-      <div class="para fw-bold mt-5 pt-3">
+      <div class="para fw-bold mt-5 pt-3 px-auto">
       <h1>
       We help startups and enterprises build products<br>
       that are 
@@ -110,5 +121,10 @@
       <span class="highlight highlight-5">scalable</span>
     </h1>
       </div>
+      <div class="Hero-Section mt-4">
+        <p>Product engineering,done right. 100% risk free,expert results garaunteed.</p>
+        <img src="heroSection_1.svg" alt="Background">
+      </div>
+      
     </body>
 </html>
